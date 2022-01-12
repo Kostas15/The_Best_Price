@@ -1,0 +1,135 @@
+body{
+    font-family: 'Trebuchet MS';
+    background-color: #F8F8FF;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: #5F9EA0;
+
+}
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0px 200px;
+    line-height: 80px;
+}
+#list{
+   float: right;
+   margin-right: 200px;
+}
+li.list-item{
+    display: inline-block;
+    margin: 0px 8px;
+    line-height: 80px;
+}
+a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 7px 10px;
+}
+a.active, a:hover{
+    border: 1px  solid white;
+    transition: .2s;
+}
+#products{
+    position: absolute;
+    top: 37%;
+    left: 10%;
+    width: 200px;
+    height: 350px;
+    border: 1px solid #5F9EA0;
+    border-radius: 10px;
+}
+.products-item{
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+#place{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 200px;
+    height: 120px;
+    border: 1px solid #5F9EA0;
+    border-radius: 10px;
+}
+#first{
+    border-bottom: 1px solid #5F9EA0;
+    font-size: large;
+    cursor: default;
+}
+.place-item{
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+#pl1{
+    margin-right: 5px;
+}
+#pl2{
+    margin-right: 5px;
+}
+#pl3{
+    margin-right: 5px;
+}
+.prod{
+    padding: 5px;
+} 
+#pr2{
+    margin-right: 5px;
+}
+#result{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 900px;
+    height: 500px;
+    border: 1px solid #5f9ea0;
+    border-radius: 10px;
+    background-color: #5f9ea0;
+}
+#res1{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    width: 250px;
+    height: 445px;
+    border: 1px solid #5F9EA0;
+    border-radius: 10px;
+    background-color: #F8F8FF;
+}
+#res2{
+    position: absolute;
+    top: 5%;
+    left: 36%;
+    width: 250px;
+    height: 445px;
+    border: 1px solid #5F9EA0;
+    border-radius: 10px;
+    background-color: #F8F8FF;
+}
+#res3{
+    position: absolute;
+    top: 5%;
+    left: 69%;
+    width: 250px;
+    height: 445px;
+    border: 1px solid #5F9EA0;
+    border-radius: 10px;
+    background-color: #F8F8FF;
+}
+#body1{
+    opacity: 0;
+}
